@@ -17,7 +17,7 @@ Dialog::Dialog(QWidget *parent) :
     ui->radioButton_6->setChecked(true);
     ui->radioButton_8->setChecked(true);
 
-    qTranslator.load(":/QtLanguage_ru.qm");
+    qTranslator.load(":/new/laguages/QtLanguage_ru.qm");
     qApp->installTranslator(&qTranslator);
     ui->retranslateUi(this);
 }
