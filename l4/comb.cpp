@@ -1,5 +1,5 @@
 #include "comb.h"
-#include "ui_dialog.h"
+#include "ui_comb.h"
 
 Dialog::Dialog(QWidget *parent) :
     QDialog(parent),
