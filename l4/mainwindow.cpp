@@ -35,7 +35,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->menu_3->setTitle(tr("Управление"));
     ui->action_6->setText(tr("Клавиши"));
 
-    qTranslator.load(":/QtLanguage_ru.qm");
+    qTranslator.load(":/new/laguages/QtLanguage_ru.qm");
     qApp->installTranslator(&qTranslator);
     ui->retranslateUi(this);
 }
@@ -102,7 +102,7 @@ void MainWindow::on_action_2_triggered()
 
 void MainWindow::on_actionEnglish_triggered()
 {
-    qTranslator.load(":/QtLanguage_en.qm");
+    qTranslator.load(":/new/laguages/QtLanguage_en.qm");
     qApp->installTranslator(&qTranslator);
     dialog->setLanguage(1);
     ui->retranslateUi(this);
@@ -110,7 +110,7 @@ void MainWindow::on_actionEnglish_triggered()
 
 void MainWindow::on_action_5_triggered()
 {
-    qTranslator.load(":/QtLanguage_ru.qm");
+    qTranslator.load(":/new/laguages/QtLanguage_ru.qm");
     qApp->installTranslator(&qTranslator);
     dialog->setLanguage(0);
     ui->retranslateUi(this);
