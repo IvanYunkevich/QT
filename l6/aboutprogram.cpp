@@ -20,7 +20,7 @@ void aboutProgram::setDefaultLanguage()
 {
     this->setWindowTitle(tr("О программе"));
 
-    ui->label_info->setText(tr("Блокнот by Renkeles"));
+    ui->label_info->setText(tr("Блокнот"));
 }
 
 void aboutProgram::setLanguage(Language::CodeLanguage code)
