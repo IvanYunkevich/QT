@@ -162,8 +162,8 @@
     </message>
     <message>
         <location filename="aboutprogram.cpp" line="23"/>
-        <source>Блокнот by Renkeles</source>
-        <translation>Блокнот by Renkeles</translation>
+        <source>Блокнот</source>
+        <translation>Блокнот</translation>
     </message>
     <message>
         <location filename="aboutprogram.ui" line="75"/>
